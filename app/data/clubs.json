@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Moloko",
+    "capacity": 100,
+    "logo": "MK",
+    "id": 1
+  },
+  {
+    "name": "Monako",
+    "capacity": 1000,
+    "logo": "Mon",
+    "id": 2
+  }
+]

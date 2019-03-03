@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Ticket1",
+    "price": 100,
+    "count": 10,
+    "description": "Some description1",
+    "event": 1,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket2",
+    "price": 200,
+    "count": 20,
+    "description": "Some description2",
+    "event": 1,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket3",
+    "price": 300,
+    "count": 30,
+    "description": "Some description3",
+    "event": 2,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket4",
+    "price": 400,
+    "count": 40,
+    "description": "Some description4",
+    "event": 2,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket5",
+    "price": 500,
+    "count": 50,
+    "description": "Some description5",
+    "event": 3,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket6",
+    "price": 600,
+    "count": 60,
+    "description": "Some description6",
+    "event": 3,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket7",
+    "price": 500,
+    "count": 50,
+    "description": "Some description7",
+    "event": 4,
+    "logo": "../../guci.jpg"
+  },
+  {
+    "name": "Ticket8",
+    "price": 600,
+    "count": 60,
+    "description": "Some description8",
+    "event": 4,
+    "logo": "../../guci.jpg"
+  }
+]

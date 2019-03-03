@@ -1,0 +1,48 @@
+<h1>События</h1>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Название</th>
+        <th class="text-right">Дата</th>
+        <th class="text-right">Время начала</th>
+        <th class="text-right">Время окончания</th>
+        <th class="text-right">Клуб</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="event in arrEvents ">
+        <td>{{event.name}}</td>
+        <td class="text-right">{{event.date }}</td>
+        <td class="text-right">{{event.timeStart}}</td>
+        <td class="text-right">{{event.timeEnd}}</td>
+        <td class="text-right">{{event.clubid}}</td>
+
+        <td class="text-center">
+            <button class="btn btn-xs btn-primary" ng-click="showTickets(event.event)">
+                Просмотреть билеты {{event.event}}
+            </button>
+        </td>
+
+        <ul class="ulClass">
+            <li ng-repeat="ticket in arrTickets">
+                <div class="ticket-container">
+                    <img src="{{ticket.logo}}" alt="{{ticket.name}}">
+
+                    <div class="ticket-content">
+                        <div class="ticket-name">{{ticket.name}}</div>
+                        <div class="ticket-count">{{ticket.count}}</div>
+                        <div class="ticket-desc">{{ticket.description}}</div>
+                        <div class="ticket-cost">{{ticket.price}}</div>
+                    </div>
+
+                </div>
+
+            </li>
+        </ul>
+
+    </tr>
+    </tbody>
+</table>
+
+

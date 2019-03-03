@@ -1,0 +1,12 @@
+
+<button ng-click="showArrayEvents()">
+    Просмотреть
+</button>
+<ul>
+    <li ng-repeat="ticket in tickets">
+        <div>{{ticket.name}}</div>
+        <div>{{ticket.price}}</div>
+        <div>{{ticket.count}}</div>
+        <div>{{ticket.description}}</div>
+    </li>
+</ul>

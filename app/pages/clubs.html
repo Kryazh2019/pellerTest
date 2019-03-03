@@ -1,0 +1,22 @@
+<h1>Клубы</h1>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Название</th>
+        <th class="text-right">Вместимость</th>
+        <th class="text-right">Логотип</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="club in clubs">
+        <td>{{club.name}}</td>
+        <td class="text-right">{{club.capacity }}</td>
+        <td class="text-right">{{club.logo}}</td>
+
+        <td class="text-center">
+            <a href="#/clubs/{{club.id}}">To Events</a>
+        </td>
+    </tr>
+    </tbody>
+</table>

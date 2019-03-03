@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Event1",
+    "date": "21.12.2019",
+    "timeStart": "13:00",
+    "timeEnd": "14:00",
+    "event": 1,
+    "clubid": 1
+  },
+  {
+    "name": "Event2",
+    "date": "12.01.2017",
+    "timeStart": "17:00",
+    "timeEnd": "19:00",
+    "clubid": 1,
+    "event": 2
+  },
+  {
+    "name": "Event3",
+    "date": "15.11.2000",
+    "timeStart": "10:00",
+    "timeEnd": "17:00",
+    "clubid": 2,
+    "event": 3
+  },
+  {
+    "name": "Event4",
+    "date": "07.04.2100",
+    "timeStart": "9:00",
+    "timeEnd": "10:00",
+    "clubid": 2,
+    "event": 4
+  }
+]
